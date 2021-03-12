@@ -21,6 +21,7 @@ public abstract class AccesoDatos {
     protected File archivo;
     public abstract void leerObj(String valor, int cnt);
     
+    
     public boolean cargarDatos(){
        
         try{
@@ -52,7 +53,7 @@ public abstract class AccesoDatos {
         FileWriter fw = null;
         PrintWriter pw = null;
         try{
-            fw = new FileWriter(rutaArchivo);
+            fw = new FileWriter(rutaArchivo,false);
             pw = new PrintWriter(fw);
             
             for(Operaciones obj:datos){

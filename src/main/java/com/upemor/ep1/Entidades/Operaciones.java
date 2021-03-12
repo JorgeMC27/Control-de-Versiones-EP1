@@ -5,4 +5,6 @@ package com.upemor.ep1.Entidades;
  **/
 public interface Operaciones {
     public String toCSV();
+
+   
 }
