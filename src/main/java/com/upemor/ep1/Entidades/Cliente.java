@@ -10,8 +10,8 @@ public class Cliente implements Operaciones{
     public void setNombre(String valor){nombre=valor;}
     
     private String apellidos;
-    public String getApellidos(){return apellidos;}
-    public void setApellidos(String valor){apellidos=valor;}
+    public String getApellido(){return apellidos;}
+    public void setApellido(String valor){apellidos=valor;}
     
     private String telefono;
     public String getTelefono(){return telefono;}
